@@ -1,5 +1,5 @@
 {
-    "name": "redisMail/mailQueue",
+    "name": "redismail/mailqueue",
     "type": "yii2-extension",
     "description": "redis邮件异步队列发送",
     "keywords": ["Yii2","redis","async","mailer"],
