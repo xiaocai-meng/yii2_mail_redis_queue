@@ -1,0 +1,28 @@
+{
+    "name": "redisMail/mailQueue",
+    "type": "yii2-extension",
+    "description": "redis邮件异步队列发送",
+    "keywords": ["Yii2","redis","async","mailer"],
+    "homepage": "http://swiftmailer.symfony.com",
+    "license": "MIT",
+    "support": {
+        "issues" : "https://github.com/xiaocai-meng/yii2_mail_redis_queue/issues",
+        "forum" : "http://blog.csdn.net/xiaomengxiaoqiu",
+        "source" : "https://github.com/xiaocai-meng/yii2_mail_redis_queue"
+    },
+    "authors" : [
+        {
+            "name" : "caicai",
+            "email" : "1026251951@qq.com"
+        }
+    ],
+    "require" : {
+        "yiisoft/yii2" : ">=2.0.5",
+        "yiisoft/yii2-redis" : "~2.0.11"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "redisMail\\mailQueue\\" : "src/"
+        }
+    }
+}
