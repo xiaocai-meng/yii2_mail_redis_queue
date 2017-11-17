@@ -32,6 +32,7 @@ class Mailer extends \yii\swiftmailer\Mailer
                 }
             }
         }
+        echo "success \n";
         return TRUE;
     }
 
